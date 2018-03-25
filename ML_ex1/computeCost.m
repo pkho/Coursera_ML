@@ -22,6 +22,8 @@ J = 0;
 
 % resolved Conflicts 1&2 manually
 
+% newAdd for gitCmdLineCommit
+
 
 % J =   (1/2m) * (sum(((h(x_i) - y_i))^2)
  
