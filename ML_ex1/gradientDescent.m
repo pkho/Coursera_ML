@@ -17,6 +17,7 @@ for iter = 1:num_iters
     %       of the cost function (computeCost) and gradient here.
     %
 
+    
     % theta = theta - alpha * sum((h[m] - y[m])(x[n]))
     
     x1 = X(:, 1);                   % x1 = ones

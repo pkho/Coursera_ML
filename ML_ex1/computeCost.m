@@ -14,7 +14,6 @@ J = 0;
 %               You should set J to the cost.
 
 % PKho_Comment_fromOctave_forGithub...
-% AddedIn_branch_PracticeEx1
 
 % J =   (1/2m) * (sum(((h(x_i) - y_i))^2)
 
