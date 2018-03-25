@@ -16,8 +16,15 @@ J = 0;
 % PKho_Comment_fromOctave_forGithub...
 % addedFrom_ML1b
 
-% J =   (1/2m) * (sum(((h(x_i) - y_i))^2)
+% addConflict2_fromMaster
 
+% addConflict1_fromML1b
+
+% resolved Conflicts 1&2 manually
+
+
+% J =   (1/2m) * (sum(((h(x_i) - y_i))^2)
+ 
   predictions = X*theta;
   sqrErrs = (predictions - y).^2;
   J = 1/(2*m) * sum(sqrErrs);
