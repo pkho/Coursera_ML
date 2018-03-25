@@ -17,6 +17,7 @@ for iter = 1:num_iters
     %       of the cost function (computeCost) and gradient here.
     %
 
+    % added from ML1b
     
     % theta = theta - alpha * sum((h[m] - y[m])(x[n]))
     
