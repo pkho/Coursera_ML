@@ -15,6 +15,7 @@ J = 0;
 
 % PKho_Comment_fromOctave_forGithub...
 % addedFrom_ML1b
+% addConflict1_fromML1b
 
 % J =   (1/2m) * (sum(((h(x_i) - y_i))^2)
 
