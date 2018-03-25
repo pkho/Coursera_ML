@@ -24,6 +24,7 @@ J = 0;
 
 % newAdd for gitCmdLineCommit
 % toBeDetectedByGitDiff
+% changes from new branch "mlBranch"
 
 
 % J =   (1/2m) * (sum(((h(x_i) - y_i))^2)
