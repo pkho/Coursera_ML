@@ -13,7 +13,11 @@ J = 0;
 % Instructions: Compute the cost of a particular choice of theta
 %               You should set J to the cost.
 
+numOfFeatures = size(X,2);
 
+  predictions = X*theta;
+  sqrErrs = (predictions - y).^2;
+  J = 1/(2*m) * sum(sqrErrs);
 
 
 

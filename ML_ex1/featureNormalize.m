@@ -26,12 +26,15 @@ sigma = zeros(1, size(X, 2));
 % Hint: You might find the 'mean' and 'std' functions useful.
 %       
 
+mu = mean(X);       %size(mu) = size(X)
+sigma = std(X);     %size(sigma) = size(X)
 
+numOfFeatures = size(X,2);
 
-
-
-
-
+for featCount = 1:numOfFeatures
+  X_norm(:,featCount) = (X_norm(:,featCount) - mu(featCount)) / sigma(featCount);
+  
+end
 
 
 % ============================================================
