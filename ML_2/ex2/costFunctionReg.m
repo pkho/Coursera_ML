@@ -20,6 +20,21 @@ grad = zeros(size(theta));
 
 
 
+term1 = -1 * (y .* log(sigmoid(X*theta)));
+term2 = (y-1) .* log(1-sigmoid(X*theta));
+
+J = (1/m) * (sum(term1 + term2));
+
+grad = (1/m) * (X' * (sigmoid(X*theta)-y));
+
+theta_J_gt0=theta;
+theta_J_gt0(1) = 0;
+
+termReg = (lambda / (2*m)) * sum(theta_J_gt0 .^ 2);
+
+J = J + termReg;
+grad = grad + (lambda/m * theta_J_gt0);
+
 
 
 % =============================================================

@@ -13,6 +13,11 @@ figure; hold on;
 %
 
 
+admit = find(y==1);
+noAdmit = find(y==0);
+
+plot(X(admit,1), X(admit,2), 'k+', 'Linewidth', 2, 'MarkerSize', 7);
+plot(X(noAdmit,1), X(noAdmit,2), 'ko', 'MarkerFaceColor', 'r', 'MarkerSize', 7);
 
 
 

@@ -10,7 +10,8 @@ g = zeros(size(z));
 %               vector or scalar).
 
 
-
+denominator = 1 + exp(-1 * z);
+g= 1 ./ denominator;
 
 
 % =============================================================

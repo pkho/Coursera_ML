@@ -16,8 +16,13 @@ p = zeros(m, 1);
 %
 
 
+% Lecture_6.pdf
+% Threshold Classifier Output sigmoid(X) at 0.5:
+% if (sigmoid(X) >= 0.5), predict "y=1";
+% else, predict "y=0";
 
-
+thresholdClassifier = sigmoid(X * theta);
+p = round(thresholdClassifier);
 
 
 
